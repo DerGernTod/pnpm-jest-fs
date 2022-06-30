@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        "outDir": "dist",
+        "tsBuildInfoFile": "dist/tsconfig.tsbuildinfo",
+        "module": "ES2022",
+        "moduleResolution": "node",
+        "target": "ES2021",
+        //"strict": true,
+        "alwaysStrict": false,
+        "skipDefaultLibCheck": true,
+        "skipLibCheck": true,
+        "incremental": true,
+        "inlineSourceMap": true,
+        "inlineSources": true,
+        "lib": ["es2015", "es2016", "es2017", "esnext", "dom"],
+        "types": ["node"],
+        "resolveJsonModule": true,
+        "noEmitOnError": true,
+        "declaration": true
+    },
+    "include": [
+        "source/**/*.ts"
+    ],
+    "exclude": [
+        "source/**/*.spec.ts"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "noImplicitAny": false,
+        "noImplicitThis": false,
+        "esModuleInterop": true,
+        "strictNullChecks": false,
+        "exactOptionalPropertyTypes": false,
+        "strictFunctionTypes": false,
+        "alwaysStrict": false,
+        "module": "commonjs",
+        "types": [
+            "jest",
+            "jest-extended",
+            "node"
+        ],
+        "lib": [
+            "esnext",
+            "es2021"
+        ]
+    },
+    "include": [
+        "source/**/*.spec.ts"
+    ],
+    "exclude": [
+    ]
+}

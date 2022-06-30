@@ -1,0 +1,24 @@
+{
+  "name": "pnpm-jest-fs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build-tests": "tsc -p tsconfig.spec.json",
+    "test": "jest",
+    "clear": "jest --clearCache --clearMocks"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^28.1.3",
+    "@types/node": "16.11.7",
+    "jest": "^28.1.2",
+    "jest-extended": "^2.0.0",
+    "jest-junit": "^14.0.0",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.4"
+  }
+}
